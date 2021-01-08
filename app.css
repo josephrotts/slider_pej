@@ -6,6 +6,20 @@
     box-sizing: border-box;
 }
 
+body {
+    /* position: relative; */
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    /* min-height: 100vh; */
+}
+
+.pej-slider__warpper {
+    display: block;
+    position: relative;
+    max-height: 600px!important;
+}
+
 .slider__navi {
     position: absolute;
     bottom: 5%;
@@ -37,14 +51,6 @@
     background: rgba(255, 255, 255, 1);
 }
 
-body {
-    position: relative;
-    font-size: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    min-height: 100vh;
-}
-
 .flex__container {
     position: absolute;
     top: 0;
@@ -72,11 +78,26 @@ body {
     z-index: 2;
 }
 
-.text--sub {
-    font-size: 12px;
-    letter-spacing: 0.5rem;
+.botonbanner {
+    font-size: 11px;
+    /* letter-spacing: 0.5rem; */
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin: 20px 0;
+    background-color: #000;
+    border-radius: 1.2ch;
+    /* position: relative; */
+    /* box-sizing: content-box; */
+    padding: 12px 16px;
+    text-align: center;
+    width: fit-content;
+    text-decoration: none;
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+a.botonbanner:hover {
+    background-color: #ffffff;
+    color: #424242;
 }
 
 .text--big {
@@ -85,16 +106,19 @@ body {
     font-weight: 700;
     line-height: 110px;
     margin-left: -8px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .text--normal {
     font-size: 13px;
     color: rgba(255, 255, 255, 0.8);
     line-height: 22px;
-    margin-top: 25px;
+    margin: 25px 0;
 }
 
-.text__background {
+
+/* .text__background {
     font-family: 'Poppins', sans-serif;
     position: absolute;
     left: 72px;
@@ -102,7 +126,7 @@ body {
     color: rgba(0, 0, 0, 0.05);
     font-size: 170px;
     font-weight: 700;
-}
+} */
 
 .flex__item {
     height: 100vh;
@@ -142,18 +166,18 @@ body {
 }
 
 
-/* Piplup */
+/* Background Slide 01 */
 
-.flex--piplup .flex__item--left {
+.flex--slide01 .flex__item--left {
     background: #3e9fe6;
 }
 
-.flex--piplup .flex__item--right {
+.flex--slide01 .flex__item--right {
     background: #d3eaef;
 }
 
 
-/* Pikachu */
+/* Background Slide 02 */
 
 .flex--pikachu .flex__item--left {
     background: #f8d41f;
@@ -164,7 +188,7 @@ body {
 }
 
 
-/* Blaziken */
+/* Background Slide 03 */
 
 .flex--blaziken .flex__item--left {
     background: #f64f37;
@@ -175,7 +199,7 @@ body {
 }
 
 
-/* Dialga */
+/* Background Slide 04 */
 
 .flex--dialga .flex__item--left {
     background: #476089;
@@ -186,7 +210,18 @@ body {
 }
 
 
-/* Zekrom */
+/* Background Slide 05 */
+
+.flex--zekrom .flex__item--left {
+    background: #424242;
+}
+
+.flex--zekrom .flex__item--right {
+    background: #a7bcbb;
+}
+
+
+/* Background Slide 06 */
 
 .flex--zekrom .flex__item--left {
     background: #424242;

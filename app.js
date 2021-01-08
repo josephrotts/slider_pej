@@ -11,7 +11,7 @@ $('.slide-nav').on('click', function(e) {
     if (current === next) {
         return false;
     } else {
-        $('.slider__warpper').find('.flex__container[data-slide=' + next + ']').addClass('flex--preStart');
+        $('.pej-slider__warpper').find('.flex__container[data-slide=' + next + ']').addClass('flex--preStart');
         $('.flex--active').addClass('animate--end');
         setTimeout(function() {
             $('.flex--preStart').removeClass('animate--start flex--preStart').addClass('flex--active');
