@@ -7,11 +7,9 @@
 }
 
 body {
-    /* position: relative; */
     font-size: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    /* min-height: 100vh; */
 }
 
 .pej-slider__warpper {
@@ -101,14 +99,6 @@ body {
     overflow: hidden;
 }
 
-
-/* .flex__item--right {
-    width: 35%;
-    transform-origin: right center;
-    transition: transform 0.1s linear 0s;
-    opacity: 0;
-} */
-
 .flex--preStart .flex__item--left,
 .flex--preStart .flex__item--right,
 .flex--active .flex__item--left,
@@ -166,21 +156,11 @@ a.botonbanner:hover {
 }
 
 
-/* .flex--slide01 .flex__item--right {
-    background: #d3eaef;
-} */
-
-
 /* Background Slide 02 */
 
 .flex--slide02 .flex__item--left {
     background: linear-gradient(13deg, rgba(255, 254, 0, 1) 0%, rgba(167, 131, 4, 1) 100%);
 }
-
-
-/* .flex--slide02 .flex__item--right {
-    background: #f4ecc5;
-} */
 
 
 /* Background Slide 03 */
@@ -190,21 +170,11 @@ a.botonbanner:hover {
 }
 
 
-/* .flex--slide03 .flex__item--right {
-    background: #ffebcd;
-} */
-
-
 /* Background Slide 04 */
 
 .flex--slide04 .flex__item--left {
     background: linear-gradient(13deg, rgba(98, 2, 2, 1) 0%, rgba(255, 70, 0, 1) 100%);
 }
-
-
-/* .flex--slide04 .flex__item--right {
-    background: #ade8f7;
-} */
 
 
 /* Background Slide 05 */
@@ -214,21 +184,11 @@ a.botonbanner:hover {
 }
 
 
-/* .flex--slide05 .flex__item--right {
-    background: #a7bcbb;
-} */
-
-
 /* Background Slide 06 */
 
 .flex--slide06 .flex__item--left {
     background: linear-gradient(13deg, rgba(255, 0, 200, 1) 0%, rgba(255, 190, 118, 1) 100%);
 }
-
-
-/* .flex--slide06 .flex__item--right {
-    background: #8a86aa;
-} */
 
 .flex__content {
     margin-left: 80px;
@@ -268,11 +228,6 @@ a.botonbanner:hover {
     transform: scaleY(0);
 }
 
-
-/* .flex__container.animate--end .flex__item--right {
-    transform: scaleX(0);
-} */
-
 .flex__container.animate--end .flex__content {
     transform: translate3d(0, 200%, 0);
     opacity: 0;
@@ -282,6 +237,9 @@ a.botonbanner:hover {
     transform: translate3d(200px, 0, 0);
     opacity: 0;
 }
+
+
+/*==== MEDIAQUERIES ====== */
 
 @media only screen and (max-width: 600px) {
     .flex__content {
